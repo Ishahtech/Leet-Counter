@@ -27,6 +27,10 @@ function increment()   {
     countRegion.textContent = count
 }
 
+function decrement() {
+    countRegion.textContent = count
+    count -= 1
+}
 
 function save() {
     countString = count + " - "
